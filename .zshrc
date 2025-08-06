@@ -61,10 +61,8 @@ export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin/:$PATH"
-export PATH="$HOME/.local/scripts:$PATH"
-export PATH="$HOME/dev-env/env:$PATH"
 
-source ~/.tokens.zsh
+[[ ! -f ~/.tokens.zsh ]] || source ~/.tokens.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
