@@ -55,14 +55,15 @@ alias lzd='lazydocker'
 alias lzg='lazygit'
 alias lzsql='lazysql'
 
+# Load goenv automatically
+eval "$(goenv init -)"
+
 # Exports
 export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-export GOPATH="$HOME/.goenv/versions/$(goenv version-name)/go"
+export GOPATH="$HOME/.goenv/versions/$(goenv version-name)"
 export PATH="$GOPATH/bin/:$PATH"
 
-# Load goenv automatically
-eval "$(goenv init -)"
 
 [[ ! -f ~/.tokens.zsh ]] || source ~/.tokens.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
