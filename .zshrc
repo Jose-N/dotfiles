@@ -54,7 +54,6 @@ source $ZSH/oh-my-zsh.sh
 alias lzd='lazydocker'
 alias lzg='lazygit'
 alias lzsql='lazysql'
-alias ls='eza --icons'
 
 # Exports
 export EDITOR="nvim"
