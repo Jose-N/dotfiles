@@ -58,8 +58,7 @@ alias lzsql='lazysql'
 # Exports
 export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-export GOPATH="$HOME/go"
-[[ ! -f ~/.goenv/version ]] || export GOPATH="$HOME/.goenv/versions/$(goenv version-name)/go"
+export GOPATH="$HOME/.goenv/versions/$(goenv version-name)/go"
 export PATH="$GOPATH/bin/:$PATH"
 
 # Load goenv automatically
