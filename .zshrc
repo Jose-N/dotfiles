@@ -61,6 +61,9 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin/:$PATH"
 
+# Load goenv automatically
+eval "$(goenv init -)"
+
 [[ ! -f ~/.tokens.zsh ]] || source ~/.tokens.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
