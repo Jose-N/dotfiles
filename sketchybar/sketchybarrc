@@ -16,7 +16,7 @@ bar=(
   padding_left=23
   padding_right=23
   sticky=true
-  color=$FLAMINGO
+  color=$BASE
   display=main
 )
 
