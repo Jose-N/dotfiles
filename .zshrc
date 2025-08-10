@@ -51,9 +51,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias lzd='lazydocker'
-alias lzg='lazygit'
-alias lzsql='lazysql'
+alias vim='nvim'
 
 # Load goenv automatically
 eval "$(goenv init -)"
@@ -63,9 +61,11 @@ export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export GOPATH="$HOME/.goenv/versions/$(goenv version-name)"
 export PATH="$GOPATH/bin/:$PATH"
+export PATH="$HOME/dotfiles/scripts:$PATH"
 
 
-[[ ! -f ~/.tokens.zsh ]] || source ~/.tokens.zsh
+[[ ! -f ~/.personal-tokens.zsh ]] || source ~/.finxact-tokens.zsh
+[[ ! -f ~/.finxact-tokens.zsh ]] || source ~/.finxact-tokens.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
