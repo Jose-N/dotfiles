@@ -22,5 +22,5 @@ if tmux has-session -t=$selected_name 2>/dev/null; then
 fi
 
 tmux new-session -ds $selected_name -c $selected
-tmux send-keys -t $selected_name "ready-tmux" ^M
+tmux send-keys -t $selected_name "ready-tmux.sh" ^M
 switch_to
