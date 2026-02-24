@@ -5,7 +5,7 @@ if command -v -- homebrew &> /dev/null; then
   echo "homebrew is already installed"
 else
   echo "installing homebrew"
-  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 Formulae=('jq' 'yq' 'bat' 'eza' 'fd' 'fzf' 'ripgrep' 'lazygit' 'lazydocker' 'lazysql' 'docker' 'docker-compose' 'powerlevel10k' 'tmux' 'neovim' 'zsh-autocomplete' 'zsh-autosuggestions' 'zsh-syntax-highlighting' 'try-rs' 'mise' 'zoxide')
