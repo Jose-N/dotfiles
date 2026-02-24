@@ -1,0 +1,7 @@
+[tools]
+node = "25.2.1"
+python = "latest"
+terraform = "1.14.4"
+ansible = "13.3.0"
+pipx = "1.8.0"
+tmux = "3.6a"
