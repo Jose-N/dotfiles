@@ -53,20 +53,12 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 alias vim='nvim'
 
-# Load goenv automatically
-eval "$(goenv init -)"
-
 # Exports
 export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-export GOPATH="$HOME/.goenv/versions/$(goenv version-name)"
-export PATH="$GOPATH/bin/:$PATH"
 export PATH="$HOME/dotfiles/scripts:$PATH"
 export SSH_AUTH_SOCK="~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
-
-[[ ! -f ~/.personal-tokens.zsh ]] || source ~/.finxact-tokens.zsh
-[[ ! -f ~/.finxact-tokens.zsh ]] || source ~/.finxact-tokens.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
