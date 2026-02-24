@@ -56,7 +56,7 @@ alias vim='nvim'
 # Exports
 export EDITOR="nvim"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-export PATH="$HOME/dotfiles/scripts:$PATH"
+export PATH="$HOME/code/dotfiles/scripts:$PATH"
 export SSH_AUTH_SOCK="~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
