@@ -8,7 +8,7 @@ else
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-Formulae=('figlet' 'lolcat' 'fontconfig' 'cmake' 'jq' 'yq' 'bat' 'eza' 'fd' 'fzf' 'ripgrep' 'lazygit' 'lazydocker' 'lazysql' 'docker' 'docker-compose' 'powerlevel10k' 'tmux' 'neovim' 'zsh-autocomplete' 'zsh-autosuggestions' 'zsh-syntax-highlighting' 'try-rs' 'mise' 'zoxide' 'azure-cli')
+Formulae=('figlet' 'lolcat' 'fontconfig' 'cmake' 'shellcheck' 'jq' 'yq' 'bat' 'eza' 'fd' 'fzf' 'ripgrep' 'lazygit' 'lazydocker' 'lazysql' 'docker' 'docker-compose' 'powerlevel10k' 'tmux' 'neovim' 'zsh-autocomplete' 'zsh-autosuggestions' 'zsh-syntax-highlighting' 'try-rs' 'mise' 'zoxide' 'azure-cli')
 
 for i in "${Formulae[@]}"; do
   brew install "$i"
