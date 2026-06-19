@@ -5,6 +5,6 @@ if ! [[ -d ~/.config ]]; then
   mkdir ~/.config
 fi
 
-cp ~/code/dotfiles/.p10k.zsh ~
-cp ~/code/dotfiles/.zshrc ~
-cp -r ~/code/dotfiles/* ~/.config
+cp ~/Code/dotfiles/.p10k.zsh ~
+cp ~/Code/dotfiles/.zshrc ~
+cp -r ~/Code/dotfiles/* ~/.config
