@@ -1,3 +1,11 @@
+# Install dependencies
+figlet "Installing Emacs Dependencies" | lolcat
+Formulae=('coreutils' 'fontconfig' 'cmake' 'shellcheck')
+
+for i in "${Formulae[@]}"; do
+  brew install "$i"
+done
+
 # Install emacs
 figlet "Installing Emacs" | lolcat
 brew tap railwaycat/emacsmacport
