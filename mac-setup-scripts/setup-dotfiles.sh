@@ -6,5 +6,6 @@ if ! [[ -d ~/.config ]]; then
 fi
 
 cp ~/Code/dotfiles/.config/.p10k.zsh ~
-cp ~/Code/dotfiles/.config/.zshrc ~
+# cp ~/Code/dotfiles/.config/.zshrc ~
 cp -r ~/Code/dotfiles/.config/* ~/.config
+echo 'export PATH="$HOME/.config/scripts/:$PATH"' >>~/.zshrc
