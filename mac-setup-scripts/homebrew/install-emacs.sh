@@ -16,3 +16,5 @@ cp -a /opt/homebrew/Cellar/emacs-mac@29/emacs-29.4-mac-10.1/Emacs.app /Applicati
 figlet "Installing DOOM Emacs" | lolcat
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
+
+echo 'export PATH="$HOME/.emacs/bin/:$PATH"' >>~/.zshrc
