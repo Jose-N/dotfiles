@@ -16,6 +16,5 @@ brew install emacs-mac --with-starter
 cp -a /opt/homebrew/Cellar/emacs-mac@29/emacs-29.4-mac-10.1/Emacs.app /Applications
 
 figlet "Installing DOOM Emacs" | lolcat
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 git clone --depth 1 https://github.com/doomemacs/core ~/.config/emacs
 ~/.config/emacs/bin/doom install

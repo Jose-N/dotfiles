@@ -6,5 +6,5 @@ if ! [[ -d ~/.config ]]; then
 fi
 
 # cp ~/Code/dotfiles/.config/.p10k.zsh ~
-cp ~/Code/dotfiles/.config/.zshrc ~
-cp -r ~/Code/dotfiles/.config/* ~/.config
+cp ~/dotfiles/.config/.zshrc ~
+cp -r ~/dotfiles/.config/* ~/.config
