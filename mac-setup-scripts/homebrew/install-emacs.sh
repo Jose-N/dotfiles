@@ -2,7 +2,7 @@
 
 # Install dependencies
 figlet "Installing Emacs Dependencies" | lolcat
-Formulae=('ripgrep' 'fd' 'coreutils' 'fontconfig' 'cmake' 'shellcheck' 'mu' 'offlineimap' 'imagemagick')
+Formulae=('ripgrep' 'fd' 'coreutils' 'fontconfig' 'cmake' 'shellcheck' 'mu' 'offlineimap' 'imagemagick' 'feh')
 
 for i in "${Formulae[@]}"; do
   brew install "$i"
