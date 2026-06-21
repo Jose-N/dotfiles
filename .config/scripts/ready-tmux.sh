@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 tmux rename-window editor
 tmux send-keys "nvim" ^M

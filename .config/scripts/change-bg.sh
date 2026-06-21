@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 bg=$(find $HOME/anime-bg -mindepth 1 -maxdepth 1 -type f | fzf)
 if [[ -z "$bg" ]]; then
