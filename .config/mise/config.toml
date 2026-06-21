@@ -1,8 +1,9 @@
 [tools]
-node = "25.2.1"
+node = "latest"
 python = "latest"
-terraform = "1.14.4"
-ansible = "13.3.0"
-pipx = "1.8.0"
+terraform = "latest"
+ansible = "latest"
+pipx = "latest"
 tmux = "3.6a"
 go = "1.24.5"
+pandoc = "latest"
